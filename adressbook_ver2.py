@@ -15,18 +15,18 @@ while True:
 		print('Too short')
 
 	if something == 'artur':
-		print('Artur Bilokur, number: 095 128 8991, age: 21')
+		print('Artur Bilokur, number: 0000000, age: 21')
 
 	else:
 		if something == 'igor':
-			print('Igor Bilokur, number: 096 704 4301, age: 40')
+			print('Igor Bilokur, number: 000000, age: 40')
 
 		else:
 			if something == 'liza':
-				print('Liza Bilokur, number: 068 750 6229, age: 12')
+				print('Liza Bilokur, number: 0000000, age: 12')
 			else:
 				if something == 'all':
-					print('Liza Bilokur, number: 068 750 6229, age: 12 \nIgor Bilokur, number: 096 704 4301, age: 40 \nArtur Bilokur, number: 095 128 8991, age: 21')
+					print('Liza Bilokur, number: 00000000, age: 12 \nIgor Bilokur, number: 0000000, age: 40 \nArtur Bilokur, number: 0000000, age: 21')
 				else:
 					print('Not found')
 		if something =='ex':
@@ -35,7 +35,7 @@ while True:
 		
 import pickle
 # Данные контактов
-mycontacts = ['Artur Bilokur, number: 095 128 8991, age: 21, \nIgor Bilokur, number: 096 704 4301, age: 40, \nLiza Bilokur, number: 068 750 6229, age: 12']
+mycontacts = ['Artur Bilokur, number: 0000000, age: 21, \nIgor Bilokur, number: 0000000, age: 40, \nLiza Bilokur, number: 0000000, age: 12']
 # Имя файла в котором мы сохраним обьект
 contactsfile = 'contacts.data'
 
