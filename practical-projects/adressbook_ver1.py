@@ -10,13 +10,13 @@ while True:
 		print('Too short')
 
 	if something == 'Artur':
-		print('Artur Bilokur, number: 0000000, age: 21')
+		print('Artur Artur, number: +44 7000 000001, age: 21')
 	else:
 		if something == 'Igor':
-			print('Igor Bilokur, number: 0000000, age: 40')
+			print('Igor Igor, number: +44 7000 000002, age: 40')
 		else:
 			if something == 'Liza':
-				print('Liza Bilokur, number: 0000000, age: 12')
+				print('Liza Liza, number: +44 7000 000003, age: 12')
 			else:
 				print('Not found')
 

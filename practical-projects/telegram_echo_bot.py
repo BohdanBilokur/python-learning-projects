@@ -1,8 +1,6 @@
 import telebot
 
-BOT_TOKEN = "Your_Bot_Token"
-
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot("Your_Bot_Token") # You can set parse_mode by default. HTML or MARKDOWN
 
 @bot.message_handler(content_types=['text'])
 def send_echo(message):
